@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xml-diff-tool"
+version = "1.0.0"
+description = "Compare two XML documents, ignore comments, and generate a difference report"
+requires-python = ">=3.9"
+dependencies = ["lxml>=4.9"]
+
+[project.scripts]
+xml-diff = "xml_diff.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

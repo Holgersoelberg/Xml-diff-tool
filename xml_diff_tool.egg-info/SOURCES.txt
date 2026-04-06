@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+tests/test_cli.py
+tests/test_comparator.py
+tests/test_report.py
+xml_diff/__init__.py
+xml_diff/__main__.py
+xml_diff/cli.py
+xml_diff/comparator.py
+xml_diff/report.py
+xml_diff_tool.egg-info/PKG-INFO
+xml_diff_tool.egg-info/SOURCES.txt
+xml_diff_tool.egg-info/dependency_links.txt
+xml_diff_tool.egg-info/entry_points.txt
+xml_diff_tool.egg-info/requires.txt
+xml_diff_tool.egg-info/top_level.txt
