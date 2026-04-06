@@ -1,6 +1,0 @@
-Metadata-Version: 2.4
-Name: xml-diff-tool
-Version: 1.0.0
-Summary: Compare two XML documents, ignore comments, and generate a difference report
-Requires-Python: >=3.9
-Requires-Dist: lxml>=4.9
