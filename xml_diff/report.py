@@ -184,7 +184,6 @@ class DiffReport:
     <strong>Document B:</strong> {_html.escape(self.label_b)}
   </div>
   {summary}
-  {"" if total == 0 else f"""
   <table>
     <thead>
       <tr>
@@ -200,8 +199,7 @@ class DiffReport:
       {rows}
     </tbody>
   </table>
-  """}
-</body>
+ /body>
 </html>"""
 
     def _html_row(self, diff: Difference, idx: int) -> str:
